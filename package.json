@@ -1,5 +1,5 @@
 {
-	"name": "@omegagrid/omegagrid",
+	"name": "@omegagrid/bundle",
 	"version": "0.1.176",
 	"license": "UNLICENSED",
 	"description": "Distribution package for Omegagrid library",
@@ -11,6 +11,9 @@
 		"lint": ""
 	},
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "6.4.2",
+		"@fortawesome/pro-light-svg-icons": "6.4.2",
+		"@fortawesome/pro-solid-svg-icons": "6.4.2",
 		"@omegagrid/bucket": "workspace:^",
 		"@omegagrid/code": "workspace:^",
 		"@omegagrid/commands": "workspace:^",

@@ -9,3 +9,7 @@ export * as statusbar from "@omegagrid/statusbar";
 export * as tabs from "@omegagrid/tabs";
 export * as toolbar from "@omegagrid/toolbar";
 export * as tree from "@omegagrid/tree";
+
+import { registerIcons } from './icons';
+
+registerIcons();
