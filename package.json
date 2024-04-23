@@ -4,7 +4,6 @@
 	"license": "UNLICENSED",
 	"description": "Distribution package for Omegagrid library",
 	"main": "omegagrid.js",
-	"types": "types/omega-lib/index.d.ts",
 	"scripts": {
 		"build": "webpack --mode production && yarn typedoc",
 		"doc": "yarn typedoc",

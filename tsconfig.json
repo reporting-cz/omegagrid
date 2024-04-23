@@ -1,9 +1,10 @@
 {
 	"extends": "../../tsconfig.common.json",
 	"compilerOptions": {
-		"composite": true,
+		"composite": false,
 		"outDir": "./",
-		"declarationDir": "./types",
+		//"declarationDir": "./types",
+		"declaration": false,
 		"declarationMap": false,
 		"rootDir": "../",
 	},
