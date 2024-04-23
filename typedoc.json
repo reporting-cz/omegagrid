@@ -1,0 +1,23 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"entryPoints": ["./index.ts"],
+	// "entryPoints": [
+	// 	"../omega-bucket",
+	// 	"../omega-code",
+	// 	"../omega-commands",
+	// 	"../omega-core",
+	// 	"../omega-editor",
+	// 	"../omega-form",
+	// 	"../omega-grid",
+	// 	"../omega-statusbar",
+	// 	"../omega-tabs",
+	// 	"../omega-toolbar",
+	// 	"../omega-tree"
+	// ],
+	"name": "Omegagrid",
+	"entryPointStrategy": "resolve",
+	"readme": "none",
+	"out": "docs",
+	"plugin": ["@mxssfd/typedoc-theme"],
+	"theme": "my-theme"
+}

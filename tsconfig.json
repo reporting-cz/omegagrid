@@ -1,0 +1,37 @@
+{
+	"extends": "../../tsconfig.common.json",
+	"compilerOptions": {
+		"composite": true,
+		"outDir": "./",
+		"declarationDir": "./types",
+		"declarationMap": false,
+		"rootDir": "../",
+	},
+	"files": ["index.ts"],
+	"include": [
+		"../omega-bucket/src/**/*",
+		"../omega-code/src/**/*",
+		"../omega-commands/src/**/*",
+		"../omega-core/src/**/*",
+		"../omega-editor/src/**/*",
+		"../omega-form/src/**/*",
+		"../omega-grid/src/**/*",
+		"../omega-statusbar/src/**/*",
+		"../omega-tabs/src/**/*",
+		"../omega-toolbar/src/**/*",
+		"../omega-tree/src/**/*",
+	],
+	"references": [
+		{"path": "../omega-bucket"},
+		{"path": "../omega-code"},
+		{"path": "../omega-commands"},
+		{"path": "../omega-core"},
+		{"path": "../omega-editor"},
+		{"path": "../omega-form"},
+		{"path": "../omega-grid"},
+		{"path": "../omega-statusbar"},
+		{"path": "../omega-tabs"},
+		{"path": "../omega-toolbar"},
+		{"path": "../omega-tree"},
+	]
+}
