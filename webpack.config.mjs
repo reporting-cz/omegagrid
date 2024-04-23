@@ -11,7 +11,10 @@ export default (env, args) => ({
 	devtool: args.mode == 'development' ? 'eval-source-map' : false,
 	output: {
 		path: path.resolve(__dirname, '.'),
-		library: 'Omegagrid',
+		library: {
+			name: 'Omegagrid',
+			type: 'window',
+		}
 	},
 	module: {
 		rules: [{
