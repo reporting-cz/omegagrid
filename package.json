@@ -1,6 +1,6 @@
 {
 	"name": "@omegagrid/omegagrid",
-	"version": "0.1.175",
+	"version": "0.1.176",
 	"license": "UNLICENSED",
 	"description": "Distribution package for Omegagrid library",
 	"main": "omegagrid.js",
