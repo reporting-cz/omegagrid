@@ -1,7 +1,10 @@
 import path from 'path';
+import webpack from 'webpack';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const pkg = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'package.json'), 'utf-8'));
 
 export default (env, args) => ({
 	entry: {
@@ -30,5 +33,11 @@ export default (env, args) => ({
 	},
 	resolve: {
 		extensions: ['.js', '.jsx', '.ts', '.tsx']
-	}
+	},
+	plugins: [
+		new webpack.DefinePlugin({
+			'process.env.PACKAGE_NAME': JSON.stringify(pkg.name),
+			'process.env.PACKAGE_VERSION': JSON.stringify(pkg.version)
+		})
+	]
 });
