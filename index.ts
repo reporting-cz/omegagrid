@@ -9,6 +9,13 @@ export * as statusbar from "@omegagrid/statusbar";
 export * as tabs from "@omegagrid/tabs";
 export * as toolbar from "@omegagrid/toolbar";
 export * as tree from "@omegagrid/tree";
+import * as pluginXLSXExport from "@omegagrid/plugin-xlsx";
+
+export const plugins = {
+	export: {
+		xlsx: pluginXLSXExport
+	}
+};
 
 const pkg = {
 	name: process.env.PACKAGE_NAME,

@@ -1,6 +1,6 @@
 {
 	"name": "@omegagrid/bundle",
-	"version": "0.1.204",
+	"version": "0.1.205",
 	"license": "UNLICENSED",
 	"description": "Distribution package for Omegagrid library",
 	"main": "omegagrid.js",
@@ -21,6 +21,7 @@
 		"@omegagrid/editor": "workspace:^",
 		"@omegagrid/form": "workspace:^",
 		"@omegagrid/grid": "workspace:^",
+		"@omegagrid/plugin-xlsx": "workspace:^",
 		"@omegagrid/statusbar": "workspace:^",
 		"@omegagrid/tabs": "workspace:^",
 		"@omegagrid/toolbar": "workspace:^",
