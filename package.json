@@ -1,6 +1,6 @@
 {
 	"name": "@omegagrid/bundle",
-	"version": "0.1.206",
+	"version": "0.1.209",
 	"license": "UNLICENSED",
 	"description": "Distribution package for Omegagrid library",
 	"main": "omegagrid.js",
@@ -8,7 +8,8 @@
 		"build": "webpack --mode production && yarn typedoc",
 		"doc": "yarn typedoc",
 		"test": "",
-		"lint": ""
+		"lint": "",
+		"publish": "yarn npm publish --access public"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "6.4.2",
