@@ -7,6 +7,7 @@ import { faFilter as fasFilter } from '@fortawesome/pro-solid-svg-icons/faFilter
 import { faDownload as fasDownload } from '@fortawesome/pro-solid-svg-icons/faDownload';
 import { faAngleDown as fasAngleDown } from '@fortawesome/pro-solid-svg-icons/faAngleDown';
 import { faAngleUp as fasAngleUp } from '@fortawesome/pro-solid-svg-icons/faAngleUp';
+import { faCaretUp as fasCaretUp } from '@fortawesome/pro-solid-svg-icons/faCaretUp';
 import { faCaretDown as fasCaretDown } from '@fortawesome/pro-solid-svg-icons/faCaretDown';
 import { faRefresh as fasRefresh } from '@fortawesome/pro-solid-svg-icons/faRefresh';
 import { faFill as fasFill } from '@fortawesome/pro-solid-svg-icons/faFill';
@@ -33,6 +34,10 @@ import { faTableColumns as fasTableColumns } from '@fortawesome/pro-solid-svg-ic
 import { faFolder as fasFolder } from '@fortawesome/pro-solid-svg-icons/faFolder';
 import { faFolderOpen as fasFolderOpen } from '@fortawesome/pro-solid-svg-icons/faFolderOpen';
 import { faCircle as fasCircle } from '@fortawesome/pro-solid-svg-icons/faCircle';
+import { faCircleCheck as fasCircleCheck } from '@fortawesome/pro-solid-svg-icons/faCircleCheck';
+import { faCircleRadiation as fasCircleRadiation } from '@fortawesome/pro-solid-svg-icons/faCircleRadiation';
+import { faCircleInfo as fasCircleInfo } from '@fortawesome/pro-solid-svg-icons/faCircleInfo';
+import { faCircleExclamation as fasCircleExclamation } from '@fortawesome/pro-solid-svg-icons/faCircleExclamation';
 import { faPen as fasPen } from '@fortawesome/pro-solid-svg-icons/faPen';
 import { faTrash as fasTrash } from '@fortawesome/pro-solid-svg-icons/faTrash';
 import { faRotateLeft as fasRotateLeft } from '@fortawesome/pro-solid-svg-icons/faRotateLeft';
@@ -55,6 +60,9 @@ import { faPlus as fasPlus } from '@fortawesome/pro-solid-svg-icons/faPlus';
 import { faMinus as fasMinus } from '@fortawesome/pro-solid-svg-icons/faMinus';
 import { faComment as fasComment } from '@fortawesome/pro-solid-svg-icons/faComment';
 import { faXmark as fasXmark } from '@fortawesome/pro-solid-svg-icons/faXmark';
+import { faSpinner as fasSpinner } from '@fortawesome/pro-solid-svg-icons/faSpinner';
+import { faObjectUnion as fasObjectUnion } from '@fortawesome/pro-solid-svg-icons/faObjectUnion';
+import { faInputText as fasInputText } from '@fortawesome/pro-solid-svg-icons/faInputText';
 
 import { faChevronUp as falChevronUp } from '@fortawesome/pro-light-svg-icons/faChevronUp';
 import { faChevronDown as falChevronDown } from '@fortawesome/pro-light-svg-icons/faChevronDown';
@@ -63,6 +71,7 @@ import { faFilter as falFilter } from '@fortawesome/pro-light-svg-icons/faFilter
 import { faDownload as falDownload } from '@fortawesome/pro-light-svg-icons/faDownload';
 import { faAngleDown as falAngleDown } from '@fortawesome/pro-light-svg-icons/faAngleDown';
 import { faAngleUp as falAngleUp } from '@fortawesome/pro-light-svg-icons/faAngleUp';
+import { faCaretUp as falCaretUp } from '@fortawesome/pro-light-svg-icons/faCaretUp';
 import { faCaretDown as falCaretDown } from '@fortawesome/pro-light-svg-icons/faCaretDown';
 import { faRefresh as falRefresh } from '@fortawesome/pro-light-svg-icons/faRefresh';
 import { faFill as falFill } from '@fortawesome/pro-light-svg-icons/faFill';
@@ -71,6 +80,10 @@ import { faSquareCheck as falSquareCheck } from '@fortawesome/pro-light-svg-icon
 import { faSquare as falSquare } from '@fortawesome/pro-light-svg-icons/faSquare';
 import { faCopy as falCopy } from '@fortawesome/pro-light-svg-icons/faCopy';
 import { faCircleQuestion as falCircleQuestion } from '@fortawesome/pro-light-svg-icons/faCircleQuestion';
+import { faCircleCheck as falCircleCheck } from '@fortawesome/pro-light-svg-icons/faCircleCheck';
+import { faCircleRadiation as falCircleRadiation } from '@fortawesome/pro-light-svg-icons/faCircleRadiation';
+import { faCircleInfo as falCircleInfo } from '@fortawesome/pro-light-svg-icons/faCircleInfo';
+import { faCircleExclamation as falCircleExclamation } from '@fortawesome/pro-light-svg-icons/faCircleExclamation';
 import { faPuzzlePiece as falPuzzlePiece } from '@fortawesome/pro-light-svg-icons/faPuzzlePiece';
 import { faHouse as falHouse } from '@fortawesome/pro-light-svg-icons/faHouse';
 import { faBook as falBook } from '@fortawesome/pro-light-svg-icons/faBook';
@@ -111,6 +124,9 @@ import { faPlus as falPlus } from '@fortawesome/pro-light-svg-icons/faPlus';
 import { faMinus as falMinus } from '@fortawesome/pro-light-svg-icons/faMinus';
 import { faComment as falComment } from '@fortawesome/pro-light-svg-icons/faComment';
 import { faXmark as falXmark } from '@fortawesome/pro-light-svg-icons/faXmark';
+import { faSpinner as falSpinner } from '@fortawesome/pro-light-svg-icons/faSpinner';
+import { faObjectUnion as falObjectUnion } from '@fortawesome/pro-light-svg-icons/faObjectUnion';
+import { faInputText as falInputText } from '@fortawesome/pro-light-svg-icons/faInputText';
 
 const faIcons: IconDefinition[] = [
 	fasChevronUp,
@@ -121,6 +137,7 @@ const faIcons: IconDefinition[] = [
 	fasAngleDown,
 	fasAngleUp,
 	fasCaretDown,
+	fasCaretUp,
 	fasRefresh,
 	fasFill,
 	fasGear,
@@ -146,6 +163,10 @@ const faIcons: IconDefinition[] = [
 	fasFolder,
 	fasFolderOpen,
 	fasCircle,
+	fasCircleCheck,
+	fasCircleRadiation,
+	fasCircleExclamation,
+	fasCircleInfo,
 	fasPen,
 	fasTrash,
 	fasRotateLeft,
@@ -168,6 +189,9 @@ const faIcons: IconDefinition[] = [
 	fasMinus,
 	fasComment,
 	fasXmark,
+	fasSpinner,
+	fasObjectUnion,
+	fasInputText,
 
 	falChevronUp,
 	falChevronDown,
@@ -177,6 +201,7 @@ const faIcons: IconDefinition[] = [
 	falAngleDown,
 	falAngleUp,
 	falCaretDown,
+	falCaretUp,
 	falRefresh,
 	falFill,
 	falGear,
@@ -202,6 +227,10 @@ const faIcons: IconDefinition[] = [
 	falFolder,
 	falFolderOpen,
 	falCircle,
+	falCircleCheck,
+	falCircleRadiation,
+	falCircleExclamation,
+	falCircleInfo,
 	falPen,
 	falTrash,
 	falRotateLeft,
@@ -223,7 +252,10 @@ const faIcons: IconDefinition[] = [
 	falPlus,
 	falMinus,
 	falComment,
-	falXmark
+	falXmark,
+	falSpinner,
+	falObjectUnion,
+	falInputText
 ];
 
 export const registerIcons = () => {
