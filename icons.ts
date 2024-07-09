@@ -13,6 +13,8 @@ import { faRefresh as fasRefresh } from '@fortawesome/pro-solid-svg-icons/faRefr
 import { faFill as fasFill } from '@fortawesome/pro-solid-svg-icons/faFill';
 import { faGear as fasGear } from '@fortawesome/pro-solid-svg-icons/faGear';
 import { faSquareCheck as fasSquareCheck } from '@fortawesome/pro-solid-svg-icons/faSquareCheck';
+import { faSquareMinus as fasSquareMinus } from '@fortawesome/pro-solid-svg-icons/faSquareMinus';
+import { faSquareXmark as fasSquareXmark } from '@fortawesome/pro-solid-svg-icons/faSquareXmark';
 import { faSquare as fasSquare } from '@fortawesome/pro-solid-svg-icons/faSquare';
 import { faCopy as fasCopy } from '@fortawesome/pro-solid-svg-icons/faCopy';
 import { faCircleQuestion as fasCircleQuestion } from '@fortawesome/pro-solid-svg-icons/faCircleQuestion';
@@ -77,6 +79,8 @@ import { faRefresh as falRefresh } from '@fortawesome/pro-light-svg-icons/faRefr
 import { faFill as falFill } from '@fortawesome/pro-light-svg-icons/faFill';
 import { faGear as falGear } from '@fortawesome/pro-light-svg-icons/faGear';
 import { faSquareCheck as falSquareCheck } from '@fortawesome/pro-light-svg-icons/faSquareCheck';
+import { faSquareMinus as falSquareMinus } from '@fortawesome/pro-light-svg-icons/faSquareMinus';
+import { faSquareXmark as falSquareXmark } from '@fortawesome/pro-light-svg-icons/faSquareXmark';
 import { faSquare as falSquare } from '@fortawesome/pro-light-svg-icons/faSquare';
 import { faCopy as falCopy } from '@fortawesome/pro-light-svg-icons/faCopy';
 import { faCircleQuestion as falCircleQuestion } from '@fortawesome/pro-light-svg-icons/faCircleQuestion';
@@ -142,6 +146,8 @@ const faIcons: IconDefinition[] = [
 	fasFill,
 	fasGear,
 	fasSquareCheck,
+	fasSquareMinus,
+	fasSquareXmark,
 	fasSquare,
 	fasCopy,
 	fasCircleQuestion,
@@ -206,6 +212,8 @@ const faIcons: IconDefinition[] = [
 	falFill,
 	falGear,
 	falSquareCheck,
+	falSquareMinus,
+	falSquareXmark,
 	falSquare,
 	falCopy,
 	falCircleQuestion,
