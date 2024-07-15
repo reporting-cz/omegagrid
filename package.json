@@ -1,6 +1,6 @@
 {
 	"name": "@omegagrid/bundle",
-	"version": "0.2.40",
+	"version": "0.2.41",
 	"license": "UNLICENSED",
 	"description": "Distribution package for Omegagrid library",
 	"main": "omegagrid.js",
