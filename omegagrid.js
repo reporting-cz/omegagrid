@@ -1250,6 +1250,10 @@
 		flex: 1;
 	}
 
+	:host([orientation=horizontal]) .item:first-child {
+		border-left-width: 0;
+	}
+
 	:host([orientation=horizontal]) .item {
 		border-left: 1px solid var(--border);
 	}
