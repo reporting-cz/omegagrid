@@ -48,6 +48,7 @@ import { faArrowUp as fasArrowUp } from '@fortawesome/pro-solid-svg-icons/faArro
 import { faArrowDown as fasArrowDown } from '@fortawesome/pro-solid-svg-icons/faArrowDown';
 import { faArrowLeft as fasArrowLeft } from '@fortawesome/pro-solid-svg-icons/faArrowLeft';
 import { faArrowRight as fasArrowRight } from '@fortawesome/pro-solid-svg-icons/faArrowRight';
+import { faArrowsToDot as fasArrowsToDot } from '@fortawesome/pro-solid-svg-icons/faArrowsToDot';
 import { faText as fasText } from '@fortawesome/pro-solid-svg-icons/faText';
 import { faArrowTurnDown as fasArrowTurnDown } from '@fortawesome/pro-solid-svg-icons/faArrowTurnDown';
 import { faHeading as fasHeading } from '@fortawesome/pro-solid-svg-icons/faHeading';
@@ -65,6 +66,7 @@ import { faXmark as fasXmark } from '@fortawesome/pro-solid-svg-icons/faXmark';
 import { faSpinner as fasSpinner } from '@fortawesome/pro-solid-svg-icons/faSpinner';
 import { faObjectUnion as fasObjectUnion } from '@fortawesome/pro-solid-svg-icons/faObjectUnion';
 import { faInputText as fasInputText } from '@fortawesome/pro-solid-svg-icons/faInputText';
+import { faListTree as fasListTree } from '@fortawesome/pro-solid-svg-icons/faListTree';
 
 import { faChevronUp as falChevronUp } from '@fortawesome/pro-light-svg-icons/faChevronUp';
 import { faChevronDown as falChevronDown } from '@fortawesome/pro-light-svg-icons/faChevronDown';
@@ -114,6 +116,7 @@ import { faArrowUp as falArrowUp } from '@fortawesome/pro-light-svg-icons/faArro
 import { faArrowDown as falArrowDown } from '@fortawesome/pro-light-svg-icons/faArrowDown';
 import { faArrowLeft as falArrowLeft } from '@fortawesome/pro-light-svg-icons/faArrowLeft';
 import { faArrowRight as falArrowRight } from '@fortawesome/pro-light-svg-icons/faArrowRight';
+import { faArrowsToDot as falArrowsToDot } from '@fortawesome/pro-light-svg-icons/faArrowsToDot';
 import { faText as falText } from '@fortawesome/pro-light-svg-icons/faText';
 import { faArrowTurnDown as falArrowTurnDown } from '@fortawesome/pro-light-svg-icons/faArrowTurnDown';
 import { faHeading as falHeading } from '@fortawesome/pro-light-svg-icons/faHeading';
@@ -131,6 +134,7 @@ import { faXmark as falXmark } from '@fortawesome/pro-light-svg-icons/faXmark';
 import { faSpinner as falSpinner } from '@fortawesome/pro-light-svg-icons/faSpinner';
 import { faObjectUnion as falObjectUnion } from '@fortawesome/pro-light-svg-icons/faObjectUnion';
 import { faInputText as falInputText } from '@fortawesome/pro-light-svg-icons/faInputText';
+import { faListTree as falListTree } from '@fortawesome/pro-solid-svg-icons/faListTree';
 
 const faIcons: IconDefinition[] = [
 	fasChevronUp,
@@ -198,6 +202,8 @@ const faIcons: IconDefinition[] = [
 	fasSpinner,
 	fasObjectUnion,
 	fasInputText,
+	fasArrowsToDot,
+	fasListTree,
 
 	falChevronUp,
 	falChevronDown,
@@ -263,7 +269,9 @@ const faIcons: IconDefinition[] = [
 	falXmark,
 	falSpinner,
 	falObjectUnion,
-	falInputText
+	falInputText,
+	falArrowsToDot,
+	falListTree
 ];
 
 export const registerIcons = () => {
