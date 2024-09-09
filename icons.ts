@@ -134,7 +134,7 @@ import { faXmark as falXmark } from '@fortawesome/pro-light-svg-icons/faXmark';
 import { faSpinner as falSpinner } from '@fortawesome/pro-light-svg-icons/faSpinner';
 import { faObjectUnion as falObjectUnion } from '@fortawesome/pro-light-svg-icons/faObjectUnion';
 import { faInputText as falInputText } from '@fortawesome/pro-light-svg-icons/faInputText';
-import { faListTree as falListTree } from '@fortawesome/pro-solid-svg-icons/faListTree';
+import { faListTree as falListTree } from '@fortawesome/pro-light-svg-icons/faListTree';
 
 const faIcons: IconDefinition[] = [
 	fasChevronUp,
