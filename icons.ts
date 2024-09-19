@@ -67,6 +67,7 @@ import { faSpinner as fasSpinner } from '@fortawesome/pro-solid-svg-icons/faSpin
 import { faObjectUnion as fasObjectUnion } from '@fortawesome/pro-solid-svg-icons/faObjectUnion';
 import { faInputText as fasInputText } from '@fortawesome/pro-solid-svg-icons/faInputText';
 import { faListTree as fasListTree } from '@fortawesome/pro-solid-svg-icons/faListTree';
+import { faBars as fasBars } from '@fortawesome/pro-solid-svg-icons/faBars';
 
 import { faChevronUp as falChevronUp } from '@fortawesome/pro-light-svg-icons/faChevronUp';
 import { faChevronDown as falChevronDown } from '@fortawesome/pro-light-svg-icons/faChevronDown';
@@ -135,6 +136,7 @@ import { faSpinner as falSpinner } from '@fortawesome/pro-light-svg-icons/faSpin
 import { faObjectUnion as falObjectUnion } from '@fortawesome/pro-light-svg-icons/faObjectUnion';
 import { faInputText as falInputText } from '@fortawesome/pro-light-svg-icons/faInputText';
 import { faListTree as falListTree } from '@fortawesome/pro-light-svg-icons/faListTree';
+import { faBars as falBars } from '@fortawesome/pro-light-svg-icons/faBars';
 
 const faIcons: IconDefinition[] = [
 	fasChevronUp,
@@ -204,6 +206,7 @@ const faIcons: IconDefinition[] = [
 	fasInputText,
 	fasArrowsToDot,
 	fasListTree,
+	fasBars,
 
 	falChevronUp,
 	falChevronDown,
@@ -271,7 +274,8 @@ const faIcons: IconDefinition[] = [
 	falObjectUnion,
 	falInputText,
 	falArrowsToDot,
-	falListTree
+	falListTree,
+	falBars,
 ];
 
 export const registerIcons = () => {
