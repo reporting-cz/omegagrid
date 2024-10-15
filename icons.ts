@@ -2,6 +2,8 @@ import { library, config, IconDefinition } from '@fortawesome/fontawesome-svg-co
 
 import { faChevronUp as fasChevronUp } from '@fortawesome/pro-solid-svg-icons/faChevronUp';
 import { faChevronDown as fasChevronDown } from '@fortawesome/pro-solid-svg-icons/faChevronDown';
+import { faChevronRight as fasChevronRight } from '@fortawesome/pro-solid-svg-icons/faChevronRight';
+import { faChevronLeft as fasChevronLeft } from '@fortawesome/pro-solid-svg-icons/faChevronLeft';
 import { faBuilding as fasBuilding } from '@fortawesome/pro-solid-svg-icons/faBuilding';
 import { faFilter as fasFilter } from '@fortawesome/pro-solid-svg-icons/faFilter';
 import { faDownload as fasDownload } from '@fortawesome/pro-solid-svg-icons/faDownload';
@@ -71,6 +73,8 @@ import { faBars as fasBars } from '@fortawesome/pro-solid-svg-icons/faBars';
 
 import { faChevronUp as falChevronUp } from '@fortawesome/pro-light-svg-icons/faChevronUp';
 import { faChevronDown as falChevronDown } from '@fortawesome/pro-light-svg-icons/faChevronDown';
+import { faChevronRight as falChevronRight } from '@fortawesome/pro-light-svg-icons/faChevronRight';
+import { faChevronLeft as falChevronLeft } from '@fortawesome/pro-light-svg-icons/faChevronLeft';
 import { faBuilding as falBuilding } from '@fortawesome/pro-light-svg-icons/faBuilding';
 import { faFilter as falFilter } from '@fortawesome/pro-light-svg-icons/faFilter';
 import { faDownload as falDownload } from '@fortawesome/pro-light-svg-icons/faDownload';
@@ -141,6 +145,8 @@ import { faBars as falBars } from '@fortawesome/pro-light-svg-icons/faBars';
 const faIcons: IconDefinition[] = [
 	fasChevronUp,
 	fasChevronDown,
+	fasChevronRight,
+	fasChevronLeft,
 	fasBuilding,
 	fasFilter,
 	fasDownload,
@@ -210,6 +216,8 @@ const faIcons: IconDefinition[] = [
 
 	falChevronUp,
 	falChevronDown,
+	falChevronRight,
+	falChevronLeft,
 	falBuilding,
 	falFilter,
 	falDownload,
