@@ -18,6 +18,9 @@
 	"entryPointStrategy": "resolve",
 	"readme": "none",
 	"out": "docs",
-	"plugin": ["@mxssfd/typedoc-theme"],
-	"theme": "my-theme"
+	"externalSymbolLinkMappings": {
+		"@lit/reactive-element": {
+			"PropertyDeclaration": "https://lit.dev/docs/api/reactive-element/#PropertyDeclaration"
+		}
+	}
 }

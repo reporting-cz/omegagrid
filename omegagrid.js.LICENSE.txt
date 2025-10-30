@@ -1,23 +1,12 @@
 /*!
-* svg.js - A lightweight library for manipulating and animating SVG.
-* @version 2.7.1
-* https://svgdotjs.github.io/
-*
-* @copyright Wout Fierens <wout@mick-wout.com>
-* @license MIT
-*
-* BUILT: Fri Nov 30 2018 10:01:55 GMT+0100 (GMT+01:00)
-*/
-
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
+ * Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2025 Fonticons, Inc.
  */
 
 /**
  * @license
- * Copyright 2018 Google LLC
+ * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
@@ -36,12 +25,6 @@
 /**
  * @license
  * Copyright 2021 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
-/**
- * @license
- * Copyright 2022 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
 

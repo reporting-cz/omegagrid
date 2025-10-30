@@ -1,0 +1,29 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"composite": true,
+		"rootDir": "../",
+		"paths": {
+			"@omegagrid/bucket": ["../omega-bucket"],
+			"@omegagrid/code": ["../omega-code"],
+			"@omegagrid/calendar": ["../omega-calendar"],
+			"@omegagrid/commands": ["../omega-commands"],
+			"@omegagrid/core": ["../omega-core"],
+			"@omegagrid/localize": ["../omega-localize"],
+			"@omegagrid/dialog": ["../omega-dialog"],
+			"@omegagrid/editor": ["../omega-editor"],
+			"@omegagrid/form": ["../omega-form"],
+			"@omegagrid/grid": ["../omega-grid"],
+			"@omegagrid/markdown": ["../omega-markdown"],
+			"@omegagrid/grid-core": ["../omega-grid-core"],
+			"@omegagrid/plugin-charts": ["../omega-plugin-charts"],
+			"@omegagrid/plugin-xlsx": ["../omega-plugin-xlsx"],
+			"@omegagrid/statusbar": ["../omega-statusbar"],
+			"@omegagrid/tabs": ["../omega-tabs"],
+			"@omegagrid/toolbar": ["../omega-toolbar"],
+			"@omegagrid/tree": ["../omega-tree"],
+			"@omegagrid/milkdown-kit": ["../lib-milkdown"]
+		}
+	},
+}

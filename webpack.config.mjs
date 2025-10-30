@@ -11,6 +11,12 @@ export default (env, args) => ({
 		'app': {import: './index.ts', filename: 'omegagrid.js'},
 	},
 	mode: args.mode,
+	externals: {
+		'monaco-editor': 'monaco-editor',
+		'highcharts': 'Highcharts',
+		'@sheet/core': 'XLSX',
+		'xlsx': 'XLSX',
+	},
 	devtool: args.mode == 'development' ? 'eval-source-map' : false,
 	output: {
 		path: path.resolve(__dirname, '.'),
