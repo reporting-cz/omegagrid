@@ -134,6 +134,8 @@ import * as fasCircle6 from '@fortawesome/pro-solid-svg-icons/faCircle6';
 import * as fasCircle7 from '@fortawesome/pro-solid-svg-icons/faCircle7';
 import * as fasCircle8 from '@fortawesome/pro-solid-svg-icons/faCircle8';
 import * as fasCircle9 from '@fortawesome/pro-solid-svg-icons/faCircle9';
+import * as fasWindowMaximize from '@fortawesome/pro-solid-svg-icons/faWindowMaximize';
+import * as fasWindowRestore from '@fortawesome/pro-solid-svg-icons/faWindowRestore';
 
 import * as falChevronUp from '@fortawesome/pro-light-svg-icons/faChevronUp';
 import * as falChevronDown from '@fortawesome/pro-light-svg-icons/faChevronDown';
@@ -269,6 +271,8 @@ import * as falCircle6 from '@fortawesome/pro-light-svg-icons/faCircle6';
 import * as falCircle7 from '@fortawesome/pro-light-svg-icons/faCircle7';
 import * as falCircle8 from '@fortawesome/pro-light-svg-icons/faCircle8';
 import * as falCircle9 from '@fortawesome/pro-light-svg-icons/faCircle9';
+import * as falWindowMaximize from '@fortawesome/pro-light-svg-icons/faWindowMaximize';
+import * as falWindowRestore from '@fortawesome/pro-light-svg-icons/faWindowRestore';
 
 const fasIcons: IconDefinition[] = [
 	fasChevronUp.definition,
@@ -404,7 +408,9 @@ const fasIcons: IconDefinition[] = [
 	fasCircle7.definition,
 	fasCircle8.definition,
 	fasCircle9.definition,
-	fasAngleRight.definition
+	fasAngleRight.definition,
+	fasWindowMaximize.definition,
+	fasWindowRestore.definition
 ];
 
 const falIcons: IconDefinition[] = [
@@ -541,7 +547,9 @@ const falIcons: IconDefinition[] = [
 	falCircle7.definition,
 	falCircle8.definition,
 	falCircle9.definition,
-	falAngleRight.definition
+	falAngleRight.definition,
+	falWindowMaximize.definition,
+	falWindowRestore.definition
 ];
 
 export const registerIcons = () => {
