@@ -164,6 +164,7 @@ import * as falCircleCheck from '@fortawesome/pro-light-svg-icons/faCircleCheck'
 import * as falCircleRadiation from '@fortawesome/pro-light-svg-icons/faCircleRadiation';
 import * as falCircleInfo from '@fortawesome/pro-light-svg-icons/faCircleInfo';
 import * as falCircleExclamation from '@fortawesome/pro-light-svg-icons/faCircleExclamation';
+import * as falFaceSmile from '@fortawesome/pro-light-svg-icons/faFaceSmile';
 import * as falPuzzlePiece from '@fortawesome/pro-light-svg-icons/faPuzzlePiece';
 import * as falHouse from '@fortawesome/pro-light-svg-icons/faHouse';
 import * as falBook from '@fortawesome/pro-light-svg-icons/faBook';
@@ -458,6 +459,7 @@ const falIcons: IconDefinition[] = [
 	falCircleRadiation.definition,
 	falCircleExclamation.definition,
 	falCircleInfo.definition,
+	falFaceSmile.definition,
 	falPen.definition,
 	falTrash.definition,
 	falRotateLeft.definition,
