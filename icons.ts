@@ -19,6 +19,7 @@ import * as fasFill from '@fortawesome/pro-solid-svg-icons/faFill';
 import * as fasGear from '@fortawesome/pro-solid-svg-icons/faGear';
 import * as fasSquareCheck from '@fortawesome/pro-solid-svg-icons/faSquareCheck';
 import * as fasSquareMinus from '@fortawesome/pro-solid-svg-icons/faSquareMinus';
+import * as fasSquarePlus from '@fortawesome/pro-solid-svg-icons/faSquarePlus';
 import * as fasSquareXmark from '@fortawesome/pro-solid-svg-icons/faSquareXmark';
 import * as fasSquare from '@fortawesome/pro-solid-svg-icons/faSquare';
 import * as fasCopy from '@fortawesome/pro-solid-svg-icons/faCopy';
@@ -156,6 +157,7 @@ import * as falFill from '@fortawesome/pro-light-svg-icons/faFill';
 import * as falGear from '@fortawesome/pro-light-svg-icons/faGear';
 import * as falSquareCheck from '@fortawesome/pro-light-svg-icons/faSquareCheck';
 import * as falSquareMinus from '@fortawesome/pro-light-svg-icons/faSquareMinus';
+import * as falSquarePlus from '@fortawesome/pro-light-svg-icons/faSquarePlus';
 import * as falSquareXmark from '@fortawesome/pro-light-svg-icons/faSquareXmark';
 import * as falSquare from '@fortawesome/pro-light-svg-icons/faSquare';
 import * as falCopy from '@fortawesome/pro-light-svg-icons/faCopy';
@@ -294,6 +296,7 @@ const fasIcons: IconDefinition[] = [
 	fasGear.definition,
 	fasSquareCheck.definition,
 	fasSquareMinus.definition,
+	fasSquarePlus.definition,
 	fasSquareXmark.definition,
 	fasSquare.definition,
 	fasCopy.definition,
@@ -433,6 +436,7 @@ const falIcons: IconDefinition[] = [
 	falGear.definition,
 	falSquareCheck.definition,
 	falSquareMinus.definition,
+	falSquarePlus.definition,
 	falSquareXmark.definition,
 	falSquare.definition,
 	falCopy.definition,
