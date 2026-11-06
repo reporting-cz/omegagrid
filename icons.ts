@@ -144,6 +144,7 @@ import * as falChevronRight from '@fortawesome/pro-light-svg-icons/faChevronRigh
 import * as falChevronLeft from '@fortawesome/pro-light-svg-icons/faChevronLeft';
 import * as falBuilding from '@fortawesome/pro-light-svg-icons/faBuilding';
 import * as falFilter from '@fortawesome/pro-light-svg-icons/faFilter';
+import * as falCalendarDays from '@fortawesome/pro-light-svg-icons/faCalendarDays';
 import * as falDownload from '@fortawesome/pro-light-svg-icons/faDownload';
 import * as falAngleDown from '@fortawesome/pro-light-svg-icons/faAngleDown';
 import * as falAngleRight from '@fortawesome/pro-light-svg-icons/faAngleRight';
@@ -424,6 +425,7 @@ const falIcons: IconDefinition[] = [
 	falChevronLeft.definition,
 	falBuilding.definition,
 	falFilter.definition,
+	falCalendarDays.definition,
 	falDownload.definition,
 	falAngleDown.definition,
 	falAngleUp.definition,
